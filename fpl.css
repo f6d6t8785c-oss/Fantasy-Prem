@@ -1,0 +1,81 @@
+body{
+    background-color: #3D195B;
+}
+.header{
+        display: flex;
+        color: rgba(255, 255, 255, 0.753);
+        font-size: 13px;
+        column-gap: 30px;
+        width: 100%;
+        height: fit-content;
+        font-family: sans-serif; 
+        margin-bottom: 20px;
+        font-weight: 700;
+}
+.header a{
+     text-decoration: none;
+     color: rgba(255, 255, 255, 0.753);
+     display: inline-block; 
+     transition: transform 0.2s ease;
+}
+.header a:hover{
+    color: white;
+    transform: scale(1.2);
+}
+.h2{
+    position: relative;
+    border-top: 1px solid rgba(255, 255, 255, 0.459);
+    height: 200px;
+}
+.grid{
+    position: absolute;
+    top: 8%;
+    left: 0;
+    color: white;
+    border-radius:55px;
+    height:23px;
+    width:23px;
+    background-color: rgba(255, 255, 255, 0.075);
+    padding: 10px;
+}
+.logo{
+    position: absolute;
+    left:4%;
+    top:7%;
+    color:white;
+    transform:scale(1.1);
+}
+.menu{
+    position: absolute;
+    left: 14%;
+    top: 17%;
+    color: white;
+    font-size: 20px;
+    display:flex;
+    column-gap: 25px;
+    font-size: 16px;
+    font-weight:700;
+    font-family:sans-serif;
+}
+.menu a{
+    text-decoration: none;
+    color: white;
+}
+.more a{
+    text-decoration: none;
+    color: white;
+}
+.menu a:hover{
+    background-color:rgba(255, 255, 255, 0.041);
+    border-radius: 50px;
+    height: 500px;
+    width: 500px;
+    padding: 10px;
+}
+.more a:hover{
+    background-color:rgba(255, 255, 255, 0.041);
+    border-radius: 50px;
+    height: 500px;
+    width: 500px;
+    padding: 10px;
+}
