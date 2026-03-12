@@ -25,7 +25,7 @@ body{
 .h2{
     position: relative;
     border-top: 1px solid rgba(255, 255, 255, 0.459);
-    height: 200px;
+    height: 70px;
 }
 .grid{
     position: absolute;
@@ -68,14 +68,32 @@ body{
 .menu a:hover{
     background-color:rgba(255, 255, 255, 0.041);
     border-radius: 50px;
-    height: 500px;
-    width: 500px;
     padding: 10px;
 }
 .more a:hover{
     background-color:rgba(255, 255, 255, 0.041);
     border-radius: 50px;
-    height: 500px;
-    width: 500px;
     padding: 10px;
+}
+.hero{
+    background: linear-gradient(90deg, #06EDFD 0%, #4C94FD 50%, #676BEB 100%);
+    height:170px;
+    width: auto;
+    position: relative;
+}
+.hero img{
+        transform: scale(0.5);
+        transform-origin: left center;
+        position: absolute;
+        top: 15%;
+        left: 2%;
+        margin-left: 0;
+}
+.im2{
+    position: absolute;
+    top: -28%;
+    left: 75%;
+    transform: scale(1.2);
+    transform-origin: right center;
+    margin-left: 0; 
 }
